@@ -10,14 +10,10 @@ export const routes: Routes = [
     {
         path: 'login', component: LoginComponent,
     },
+    // {
+    //     path:'', component: NavbarComponent
+    // },
     {
-        path:'',
-        component: NavbarComponent,
-        children: [
-            {
-                path: 'dashboard',
-                component: DashboardComponent
-            }
-        ]
+        path: 'dashboard',component: DashboardComponent
     }
 ];
