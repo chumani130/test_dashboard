@@ -10,9 +10,9 @@ export const routes: Routes = [
     {
         path: 'login', component: LoginComponent,
     },
-    { 
-        path: '**', redirectTo: 'login' 
-    },
+    // { 
+    //     path: '**', redirectTo: 'login' 
+    // },
     {
         path: 'dashboard',component: DashboardComponent
     }
